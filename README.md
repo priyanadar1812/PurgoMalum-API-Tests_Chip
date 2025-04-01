@@ -77,4 +77,11 @@ pm.expect(pm.response.json().result).to.eql("This is a **** example");
 
 ## Issues found 
 
+Note: Some issues found which do not seem to match requirements could possibly be a bug -
+1. Custom words with underscore(_), numbers are not accepted and not added to list with 'add' parameter and not replaced eg. (123_ugly,idiot_bad )
+- underscore
+- numbers 
+- double quotes (")
+- add word with 200 char 
+2. Issue with input text not filtering if multiple words added without comma separated value
 
