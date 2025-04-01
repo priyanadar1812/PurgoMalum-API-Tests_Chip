@@ -57,9 +57,10 @@ Each test scenario follows the Given-When-Then structure:
 ## Running Manual Tests in Postman
 
 1. Open Postman
-2. Navigate to the PurgoMalum-API-Tests_Chip collection
-3. Select a request and click Send
-4. Verify the output matches the expected behavior under the Test tab using assertions.
+2. Select the env as `purgomalum_env`
+3. Navigate to the PurgoMalum-API-Tests_Chip collection
+4. Select a request and click Send
+5. Verify the output matches the expected behavior under the Test tab using assertions.
 
 ## Example Postman Assertion (Under the "Tests" Tab):
 
