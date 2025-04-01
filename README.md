@@ -70,6 +70,11 @@ pm.expect(pm.response.json().result).to.eql("This is a **** example");
 
 ## Future Improvements
 
-- List of existing Profanity words if porvided would be good to check for duplicates ,overriding features to be avoided.
+- List of existing Profanity words check for duplicates ,overriding word check error message features could be implemented .
+- If list of errors could be available
 - Enhance edge case coverage (e.g., null inputs, large payloads).
 - Add performance checks for large text inputs.
+
+## Issues found 
+
+
